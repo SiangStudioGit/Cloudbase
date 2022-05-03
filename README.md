@@ -5,9 +5,9 @@ Copying [```Cloudbase.lua```](https://github.com/SiangStudioGit/Cloudbase/blob/m
 # Concept
 The concept of Cloudbase is to provide one DataStore, and just one, in order to completely removes complications. It's faster and lighter on the server, and provides a simple API.
 # How does it work?
-Simple. We have a ```DatabaseFunction``` table and a ```Cloudbase``` table. What we do, is define our functions on ```DatabaseFunction```, and then when you call ```GetDB```, iterate through each function and return an instance of it. This means that you don't have to type ```DatabaseFunction:Set("hello", "key", "value")``` - simply just type ```Cloudbase:GetDB("hello"):Set("key", "value")``` instead.
+Simple. We have a ```DatabaseFunctions``` table and a ```Cloudbase``` table. What we do, is define our functions on ```DatabaseFunctions```, and then when you call ```GetDB```, iterate through each function and return an instance of it. This means that you don't have to type ```DatabaseFunctions:Set("hello", "key", "value")``` - simply just type ```Cloudbase:GetDB("hello"):Set("key", "value")``` instead.
 
-TIP: If you don't like SentenceCase DatabaseFunction, you can use lowercase. For example: ```GetDB("hello"):set("key", "value")```
+*TIP*: If you don't like SentenceCase DatabaseFunctions, you can use lowercase. For example: ```GetDB("hello"):set("key", "value")```
 # Usage
 To use Cloudbase, here's a simple showcase down below.
 ```lua
