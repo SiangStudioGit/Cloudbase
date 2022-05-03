@@ -1,7 +1,7 @@
 # Cloudbase
 It's faster and lighter on the server, and provides a simple API.
 # Installation
-Copying Cloudbase.lua to ```ServerStorage```. Make sure it's a ```ModuleScript``` named Cloudbase.
+Copying ```[Cloudbase.lua](Cloudbase.lua)``` to ```ServerStorage```. Make sure it's a ModuleScript named ```Cloudbase```.
 # Usage
 To use Cloudbase, here's a simple showcase down below.
 ```lua
