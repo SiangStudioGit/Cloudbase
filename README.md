@@ -1,4 +1,4 @@
-<center>![Cloudbase](https://user-images.githubusercontent.com/98570658/166416503-4db8adb0-579e-4e07-8d01-4cb93cda3261.png)</center>
+![Cloudbase](https://user-images.githubusercontent.com/98570658/166416503-4db8adb0-579e-4e07-8d01-4cb93cda3261.png)
 # Cloudbase
 Go back to the start of time, where DataStores weren't complex.
 ## Installation
