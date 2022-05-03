@@ -9,7 +9,7 @@ Simple. We have a ```DatabaseFunctions``` table and a ```Cloudbase``` table. Wha
 
 **TIP**: If you don't like SentenceCase DatabaseFunctions, you can use lowercase. For example: ```GetDB("hello"):set("key", "value")```
 # Usage
-To use Cloudbase, here's a simple showcase down below.
+To use **Cloudbase**, here's a simple showcase down below.
 ```lua
 -- Importing Cloudbase:
 local ServerStorage = game:GetService("ServerStorage")
